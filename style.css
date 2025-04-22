@@ -1,0 +1,293 @@
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: light;
+    background-image: url(BG.jpg); background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%
+}
+
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover{
+    padding: 1px;
+    border-radius: 15px;
+    background: wheat;
+}
+
+.mainnav li{
+    display: inline;
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.mainnav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.mainnav li a:hover{
+    border-radius: 15px;
+    margin: 0px;
+    padding: 5px;
+    background: wheat;
+}
+
+.home{
+    background: antiquewhite;
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+}
+
+.home h2{
+    font-size: 75px;
+}
+
+.home p{
+    font-size: 20px;
+}
+
+.start-buttons{
+    cursor:pointer;
+    margin: 20px;
+    width: 200px;
+    height: 75px;
+    font-size: 30px;
+    background: wheat;
+    border: none;
+    border-radius: 15px;
+}
+
+.start-buttons:hover{
+    background-color: burlywood;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.signin table{
+    margin: auto;
+    margin-top: 200px;
+    padding: 40px;
+    height: 100px;
+    background-color: antiquewhite;
+    font-size:20px;
+    border-radius: 15px;
+}
+
+.signin th{
+    padding: 30px;
+}
+
+.signin td a{
+    text-decoration: none;
+    color: black;
+}
+
+#username, #email, #password, #dob, #confirm-password, #gender{
+    margin-bottom: 10px;
+    border: none;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.login-buttons{
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: wheat;
+    border-radius: 15px;
+}
+
+.login-buttons:hover{
+    background-color: burlywood;
+}
+
+.signup table{
+    margin: auto;
+    margin-top: 75px;
+    padding: 40px;
+    background-color: antiquewhite;
+    font-size:20px;
+    border-radius: 15px;
+}
+
+.signup th{
+    padding: 30px;
+}
+
+.signup td a{
+    text-decoration: none;
+    color: black;
+}
+
+.signup-buttons{
+    border: none;
+    width: 400px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: wheat;
+    border-radius: 15px;
+}
+
+.signup-buttons:hover{
+    background-color: burlywood;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.product-brand{
+    text-align: center;
+    padding: 30px;
+}
+
+.product-card{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    background: antiquewhite;
+    border-radius: 15px;
+    width: 75%;
+    padding: 20px;
+}
+
+.product-card img{
+    max-width: 150px;
+    border-radius: 4px;
+}
+
+.product-info{
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.product-info:hover{
+    background-color: burlywood;
+    border-radius: 15px;
+}
+
+.product-info h2{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-info p{
+    font-size: 16px;
+    color: #555;
+}
+
+.product-info a{
+    text-decoration: none;
+    color: black;
+}
+
+.product-card button{
+    background-color: wheat;
+    color: black;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.product-card button:hover{
+    background-color:  burlywood;
+}
+
+.laptop-details{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 20px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.laptop-image{
+    flex: 1 1 400px;
+}
+
+.laptop-image img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.laptop-info{
+    flex: 2 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.laptop-info h2{
+    font-size: 32px;
+    margin: 0 0 10px;
+}
+
+.laptop-info p{
+    font-size: 20px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.laptop-info ul{
+    list-style: none;
+    padding: 0;
+}
+
+.laptop-info ul li{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.laptop-info button{
+    background-color: wheat;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.laptop-info button:hover{
+    background-color: burlywood;
+}

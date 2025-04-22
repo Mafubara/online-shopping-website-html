@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up - Click N Compute</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="home.html"><h1 class="tl">Click N Compute</h1></a>
+        <nav class="mainnav">
+            <ul>
+                <li><a href="categories.html"><i class="fa-solid fa-list" style="color: #000000;"></i> Categories</a></li>
+                <li><a href="about.html"><i class="fa-solid fa-address-book" style="color: #000000;"></i> About</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> Cart</a></li>
+                <li><a href="signin.html"><i class="fa-solid fa-user" style="color: #000000;"></i> Sign-in</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="signup">
+            <form action="categories.html">
+                <table>
+                    <tr>
+                        <th>Sign-up for a new account:</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="username" placeholder="Username" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" id="email" placeholder="Email" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" id="password" placeholder="Password" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" id="confirm-password" placeholder="Confirm Password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Date of Birth:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="date" id="dob" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender:</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select id="gender" required>
+                                <option value="">Select</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit" class="signup-buttons">Sign-up</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </main>
+    <footer>
+        &copy;2025 Click N Compute All Rights Reserved
+    </footer>
+</body>
+</html>
