@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Click N Compute</title>
+    <title>Checkout - Click N Compute</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,26 +19,44 @@
                 <li><a href="about.html"><i class="fa-solid fa-address-book" style="color: #000000;"></i> About</a></li>
                 <li><a href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> Cart</a></li>
                 <li><a href="signin.html"><i class="fa-solid fa-user" style="color: #000000;"></i> Sign-in</a></li>
-                </ul>
+            </ul>
         </nav>
     </header>
     <main>
-        <div class="home">
-            <h2>About Us</h2>
-    <p>
-        At Click N Compute, we are passionate about technology and committed to delivering the best laptops to our customers. 
-        Founded in 2025, our mission is to provide high-quality, reliable laptops that meet the needs of professionals, gamers, 
-        and everyday users alike.
-    </p>
-    <p>
-        Our team carefully curates a selection of top brands and the latest models, ensuring that you have access to 
-        cutting-edge technology. We pride ourselves on exceptional customer service and support, making your shopping 
-        experience seamless and enjoyable.
-    </p>
-    <p>
-        Thank you for choosing Click N Compute as your trusted partner in laptops. If you have any questions or need assistance, 
-        feel free to contact us.
-    </p>
+        <div class="checkout">
+            <h1>Checkout</h1>
+
+<form action="thankyou.html">  <!--  This action should point to your server-side script -->
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="address">Address:</label>
+  <textarea id="address" name="address" rows="4" required></textarea>
+
+  <label for="city">City:</label>
+  <input type="text" id="city" name="city" required>
+
+  <label for="state">State:</label>
+  <input type="text" id="state" name="state" required>
+
+  <label for="zip">Zip Code:</label>
+  <input type="text" id="zip" name="zip" required>
+
+  <label for="payment">Payment Method:</label>
+  <select id="payment" name="payment" class="checkoutpm">
+    <option value="COD">Cash-on-Delivery</option>
+    <option value="creditcard">Credit Card</option>
+    <option value="paypal">PayPal</option>
+    <option value="GCash">Gcash</option>
+    <!-- Add other payment options -->
+  </select>
+
+
+  <button type="submit" class="checkout-stuff">Place Order</button>
+</form>
         </div>
     </main>
     <footer>
